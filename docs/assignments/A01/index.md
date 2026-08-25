@@ -145,7 +145,7 @@ Keeping the pivot close to the cutting edges allows the applied handle force to 
 ---
 
 ## Mechanical System
-(scissor-image.png)
+![scissor patent](scissor-image.png)
 
 ## Decide
 
