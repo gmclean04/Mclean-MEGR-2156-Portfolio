@@ -2,10 +2,10 @@
 
 ![dream big image](port-testimage.jpg)
 
-## Objective
+## Objective (Part 1)
 The objective of this analysis is to evaluate two engineering portfolios based on four functional requirements: navigability, reproducibility, evidence of reasoning, and professional tone.
 
-## Portfolio Analysis
+## Portfolio Analysis (Task A)
 
 ### Portfolio 1: Ikbal Nayem (GitHub)
 
@@ -57,7 +57,7 @@ For my own portfolio, I will focus on organizing projects so they can be located
 
 
 
-## Product Analysis 
+## Product Analysis (Task B)
 ## Primary Function
 
 The primary function of scissors is to convert an applied hand force into a concentrated shearing force that separates a material along a defined cutting path.
@@ -147,8 +147,49 @@ Keeping the pivot close to the cutting edges allows the applied handle force to 
 ## Mechanical System
 ![scissor patent](scissor-image.png)
 
-## Decide
+## Decide Pillar (Part 2)
 
+The **Decide Pillar** focuses on making intentional choices, documenting the reasoning behind those choices, and establishing a professional standard for the work that follows.
+
+---
+
+## 1. Homepage Identity
+
+The homepage will clearly communicate that this portfolio is a professional engineering record containing documented coursework, engineering projects, analyses, and technical development throughout the semester.
+
+The content will be organized through consistent navigation so that a visitor, particularly an instructor, engineering professional, or potential employer, can quickly understand the purpose of the portfolio and locate specific work without unnecessary searching.
+
+The homepage will emphasize the **quality and organization of the work** rather than personal information, since the About Me section provides that context. This approach allows the portfolio to function as a professional documentation system that demonstrates both the engineering work completed and the process used to develop and communicate that work.
+
+---
+
+## 2. One Intentional Customization
+
+I will remove the existing **MEGR title card** from the portfolio template and replace it with a design element that represents my professional and creative approach to engineering.
+
+This change is intended to make the portfolio more adaptable to the type of engineering work I plan to document while still maintaining the template's required structure and navigation.
+
+As I continue developing as an engineer, I will need additional project pages and space for more detailed documentation than the initial portfolio template provides. Replacing the title card therefore better satisfies the requirement for the portfolio to serve as a **scalable professional engineering record** while maintaining the existing organizational structure.
+
+---
+
+## 3. Documentation Standard
+
+> **For every assignment entry this semester, I will maintain a professional standard of documentation by clearly explaining my engineering decisions, supporting them with appropriate evidence and technical reasoning, and organizing each submission so that another reader can understand the work without needing additional explanation.**
+
+---
+
+## Professional Goal
+
+Beyond completing individual assignments, I intend to use this portfolio to stay informed about upcoming assignments, course requirements, and important deadlines. Maintaining awareness of what is expected will allow me to plan my time effectively, stay ahead of the course schedule, and produce the highest-quality work possible within the time available.
+
+This approach will allow the portfolio to develop throughout the semester rather than functioning only as a collection of completed assignments. Each entry will contribute to a larger professional record of my development as an engineer.
+
+---
+
+## Summary
+
+| Decision | Choice | Purpose |
 
 ## Communicate
 
