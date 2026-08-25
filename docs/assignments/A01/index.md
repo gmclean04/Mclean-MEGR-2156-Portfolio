@@ -5,7 +5,7 @@
 ## Objective
 The objective of this analysis is to evaluate two engineering portfolios based on four functional requirements: navigability, reproducibility, evidence of reasoning, and professional tone.
 
-## Analyze
+## Portfolio Analysis
 
 ### Portfolio 1: Ikbal Nayem (GitHub)
 
@@ -49,7 +49,7 @@ Thanh provides strong evidence of reasoning throughout his projects. His portfol
 
 Thanh’s portfolio uses a mix of informal and technical language. His About section includes jokes such as being “addicted to machining” and references to laptop problems, which gives the site a personal identity but may distract from his qualifications when first viewed. However, his experience and project sections use technical and workplace-appropriate language when describing his engineering work. Overall, the technical sections maintain an appropriate tone for an employer or engineering reviewer.
 
-## Decide
+## Final Thoughts
 
 Based on the comparison, both portfolios satisfy the basic requirements for presenting engineering experience, but they have different strengths. Ikbal’s portfolio is simpler to navigate and presents information efficiently, while Thanh’s portfolio provides more detailed project information and stronger evidence of engineering reasoning. Both could improve their reproducibility by including more detailed procedures, calculations, testing results, and design files.
 
@@ -57,7 +57,7 @@ For my own portfolio, I will focus on organizing projects so they can be located
 
 
 
-## Analyze
+## Product Analysis 
 ## Primary Function
 
 The primary function of scissors is to convert an applied hand force into a concentrated shearing force that separates a material along a defined cutting path.
@@ -74,9 +74,9 @@ The primary mechanical behavior of scissors can be modeled using **torque** and 
 
 The torque produced around the pivot can be represented by:
 
-\[
-\tau = Fr
-\]
+[
+τ = Fr
+]
 
 Where:
 
@@ -90,9 +90,9 @@ A longer handle creates a larger moment arm, allowing the user to produce greate
 
 The cutting action can also be related to shear stress:
 
-\[
-\tau = \frac{F}{A}
-\]
+[
+τ = \frac{F}{A}
+]
 
 Where:
 
