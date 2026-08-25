@@ -58,7 +58,7 @@ For my own portfolio, I will focus on organizing projects so they can be located
 
 
 ## Analyze
-## 1. Primary Function
+## Primary Function
 
 The primary function of scissors is to convert an applied hand force into a concentrated shearing force that separates a material along a defined cutting path.
 
@@ -66,7 +66,7 @@ The user applies force to the handles, producing rotational motion around the pi
 
 ---
 
-## 2. Governing Model
+## Governing Model
 
 The primary mechanical behavior of scissors can be modeled using **torque** and **shear stress**.
 
@@ -116,7 +116,7 @@ These assumptions allow the applied hand force to be analyzed as a rotational fo
 
 ---
 
-## 3. Component Geometry
+## Component Geometry
 
 ### Component 1 — Blade and Handle Assembly #1
 
@@ -144,7 +144,8 @@ Keeping the pivot close to the cutting edges allows the applied handle force to 
 
 ---
 
-## 4. Mechanical System
+## Mechanical System
+(scissor-image.png)
 
 ## Decide
 
