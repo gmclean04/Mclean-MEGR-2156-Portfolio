@@ -58,7 +58,93 @@ For my own portfolio, I will focus on organizing projects so they can be located
 
 
 ## Analyze
+## 1. Primary Function
 
+The primary function of scissors is to convert an applied hand force into a concentrated shearing force that separates a material along a defined cutting path.
+
+The user applies force to the handles, producing rotational motion around the pivot. This causes the two blades to move relative to one another. The blades then apply opposing forces to the material, creating shear that causes the material to separate.
+
+---
+
+## 2. Governing Model
+
+The primary mechanical behavior of scissors can be modeled using **torque** and **shear stress**.
+
+### Torque
+
+The torque produced around the pivot can be represented by:
+
+\[
+\tau = Fr
+\]
+
+Where:
+
+- `τ` = Torque
+- `F` = Force applied to the handle
+- `r` = Perpendicular distance from the pivot to the applied force
+
+A longer handle creates a larger moment arm, allowing the user to produce greater torque with the same applied force.
+
+### Shear Stress
+
+The cutting action can also be related to shear stress:
+
+\[
+\tau = \frac{F}{A}
+\]
+
+Where:
+
+- `τ` = Shear stress
+- `F` = Cutting force
+- `A` = Area being sheared
+
+The sharp edges of the scissors concentrate the cutting force over a relatively small area, increasing the resulting shear stress.
+
+### Assumptions
+
+The analysis assumes that:
+
+1. The pivot acts as a fixed rotational point.
+2. The handles and blades remain approximately rigid while force is applied.
+3. The applied hand force acts perpendicular to the handle for maximum torque.
+4. Friction at the pivot is neglected.
+5. The blades remain in contact with the material during cutting.
+
+These assumptions allow the applied hand force to be analyzed as a rotational force around the pivot.
+
+---
+
+## 3. Component Geometry
+
+### Component 1 — Blade and Handle Assembly #1
+
+The first blade has a long, tapered cutting edge that becomes thinner toward the tip.
+
+This geometry concentrates the applied force along a small cutting edge, allowing the blade to penetrate and shear the material.
+
+The handle is longer than the cutting portion, increasing the distance between the user's applied force and the pivot. This increases the torque produced around the pivot.
+
+### Component 2 — Blade and Handle Assembly #2
+
+The second blade mirrors the first and works against it to produce the shearing action.
+
+The angled cutting edge allows the blades to maintain contact progressively along the material rather than attempting to cut the entire width simultaneously.
+
+The handle provides a large moment arm around the pivot, reducing the hand force required to generate the necessary cutting torque.
+
+### Component 3 — Pivot Fastener
+
+The pivot fastener connects the two blade assemblies while allowing them to rotate relative to one another.
+
+Its position near the intersection of the blades establishes the rotational axis.
+
+Keeping the pivot close to the cutting edges allows the applied handle force to be transferred through the blades while maintaining controlled movement between them.
+
+---
+
+## 4. Mechanical System
 
 ## Decide
 
