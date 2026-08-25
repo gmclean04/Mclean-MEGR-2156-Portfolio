@@ -1,2 +1,13 @@
 #About Me
-This is how to edit
+
+### George E. McLean Jr.
+
+I am a sophomore Mechanical Engineering student at the University of North Carolina at Charlotte with a strong interest in the design, development, and practical application of mechanical systems. My interest in mechanical engineering comes from wanting to understand how products and mechanisms are designed, modeled, tested, and ultimately built. I am particularly interested in entering the prosthetics industry, where mechanical engineering can be applied to developing devices that improve a person's mobility and quality of life. This interest has motivated me to develop both the technical and professional skills necessary to contribute to the field.
+
+As I continue through my engineering education, I am developing an understanding of the engineering process beyond simply finding a correct answer. I am learning how to approach a problem systematically, evaluate possible solutions, model components, analyze how designs function, and communicate the reasoning behind my decisions. Coursework and engineering projects have introduced me to areas such as mechanical analysis, computer-aided design, computational methods, and technical documentation. I am also working to become more comfortable with the iterative nature of engineering, where a design may need to be evaluated and improved multiple times before reaching an effective solution.
+
+The engineer I am becoming is someone who wants to combine technical knowledge with creativity and practical problem-solving. I want to develop the ability to take an idea from an initial concept through analysis, modeling, and eventually a functional product. My long-term goal is to apply these skills within the prosthetics and related engineering industries while continuing to grow as both a designer and problem solver.
+
+### What does it mean to defend an engineering decision, and do you currently know how to do it?
+
+To defend an engineering decision means being able to clearly explain why a particular design choice was made and support that choice with evidence, calculations, engineering principles, constraints, or other relevant information. At this point in my engineering career, I cannot confidently say that I fully know how to defend an engineering decision at a professional engineering level. I understand that an engineering decision should be based on more than personal preference, but I am still developing the ability to clearly connect my decisions to technical evidence and explain why one solution is more appropriate than another. I see this as an important skill for me to develop throughout this course and plan to use the portfolio to track how my ability to make and defend engineering decisions improves throughout the semester.
