@@ -190,6 +190,11 @@ This approach will allow the portfolio to develop throughout the semester rather
 ## Summary
 
 | Decision | Choice | Purpose |
+|---|---|---|
+| **Homepage Identity** | Professional engineering record | Allow visitors to quickly understand and navigate the portfolio |
+| **Customization** | Replace MEGR title card | Create a more professional, creative, and scalable portfolio design |
+| **Documentation Standard** | Clear reasoning, evidence, and organization | Ensure every assignment meets a consistent professional quality standard |
+| **Professional Goal** | Stay ahead of assignments and requirements | Improve planning, consistency, and quality of work |
 
 ## Communicate
 
