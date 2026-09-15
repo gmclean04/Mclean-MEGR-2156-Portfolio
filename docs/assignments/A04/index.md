@@ -29,7 +29,7 @@ The first feature is the part of the mount that connects to the motor. I decided
 - Required height from deflection, $h_\delta$
 - Final cross-sectional height, $h$
 
-## FBD
+# FBD
 
 For the free body diagram, I modeled Feature 1 as a cantilever beam fixed at the wall. The 300 N force is applied at the free end of the feature. The fixed end contains a reaction force and reaction moment.
 
