@@ -78,6 +78,6 @@ After that I did the same rearranged formula technique to begin calculating the 
 
 Before starting my CAD file I had to design a simple handdrawn mount that would carry over to SolidWorks easier. All dimensions of each feature are also provided. This design was inspired by another design with my calculation being different.
 
-![image alt]
+![image alt](https://github.com/gmclean04/Mclean-MEGR-2156-Portfolio/blob/44d7f4bebd8140a59e659b63bfca0d06b58a3b16/docs/assignments/A04/SS%2B7.jpg)
 
 
