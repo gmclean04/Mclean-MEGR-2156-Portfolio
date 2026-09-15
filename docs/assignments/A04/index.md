@@ -33,7 +33,7 @@ The first feature is the part of the mount that connects to the motor. I decided
 
 For the free body diagram, I modeled Feature 1 as a cantilever beam fixed at the wall. The 300 N force is applied at the free end of the feature. The fixed end contains a reaction force and reaction moment.
 
-[Insert Feature 1 FBD here]
+![image alt](https://github.com/gmclean04/Mclean-MEGR-2156-Portfolio/blob/20b3585e121eefba31f2bf84debc4dc610c6aa69/docs/assignments/A04/SS_3.jpg)
 
 
 
