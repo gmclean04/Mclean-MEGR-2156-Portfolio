@@ -153,5 +153,5 @@ Overall, this assignment gave me more experience taking calculations and turning
 
 # CAD File
 
-**[Insert link to download Motor Mount SLDPRT file here]**
+(https://github.com/gmclean04/Mclean-MEGR-2156-Portfolio/blob/002814bdbf3bec65a93e38f8ba019ec4ff743944/docs/assignments/A04/A4_MotorMount.SLDPRT)
 
