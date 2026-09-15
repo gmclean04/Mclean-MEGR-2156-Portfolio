@@ -6,3 +6,4 @@ For this assignment, I was instructed to design a motor mount for a Brushed 24V 
 
 For my design, I chose to use Acrylonitrile Butadiene Styrene (ABS). I used a Young's Modulus of 1.79 GPa and a yield strength of 30 MPa for my calculations. A safety factor of 3 was also used, and the weight of the motor was neglected. To simplify the analysis, I treated both features as cantilever beams since the wall connection was assumed to have zero deflection and zero slope.
 
+![image alt](https://github.com/gmclean04/Mclean-MEGR-2156-Portfolio/blob/1ed98cf1e2f561ccd1bd46b890264422d6674e69/docs/assignments/A04/SS_2.jpg)
