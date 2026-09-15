@@ -72,6 +72,12 @@ I modeled Feature 2 as another cantilever beam. The wall acts as the fixed suppo
 
 After that I did the same rearranged formula technique to begin calculating the additonal measurements of this feature. The same thing happened with the deflection formula providing  a larger height, which again led me to use the calculated value assuring there isn't anything that could exceed the deflection maximum. The height was found to be 41.68 mm.
 
+![image alt](https://github.com/gmclean04/Mclean-MEGR-2156-Portfolio/blob/f90424d400b1a8d7a2ce5866752bed73da73563b/docs/assignments/A04/SS_6.jpg)
+
+#Isometric Sketch
+
+Before starting my CAD file I had to design a simple handdrawn mount that would carry over to SolidWorks easier. All dimensions of each feature are also provided. This design was inspired by another design with my calculation being different.
+
 ![image alt]
 
 
