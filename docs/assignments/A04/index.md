@@ -97,19 +97,25 @@ The main values I used in SolidWorks were:
 - `Bolt_Clearance = 3.4 mm`
 - `Material = ABS`
 
-**[Insert SolidWorks equation editor screenshot here]**
+![image alt](https://github.com/gmclean04/Mclean-MEGR-2156-Portfolio/blob/27407df010530dde1ce340a13911a491cda2ef1c/docs/assignments/A04/CAD_0.jpg)
 
 I then created the side profile of the motor mount and extruded it to create the basic shape.
 
-**[Insert CAD side profile screenshot here]**
+![image alt](https://github.com/gmclean04/Mclean-MEGR-2156-Portfolio/blob/27407df010530dde1ce340a13911a491cda2ef1c/docs/assignments/A04/CAD_1.jpg)
 
 ## Motor Mount Holes
 
 The next step was creating the holes that connect the motor to Feature 1. I used the dimensions of the motor to locate the center hole and the four mounting holes.
 
-The motor shaft clearance hole was modeled based on the motor dimensions, while the four mounting holes were made using 3.4 mm clearance holes for the M3 bolts as required by the assignment.
+The motor shaft clearance hole was modeled based on the motor dimensions, while the four mounting holes were made using the M3 bolts as required by the assignment.
 
-**[Insert motor hole sketch screenshot here]**
+![image alt](https://github.com/gmclean04/Mclean-MEGR-2156-Portfolio/blob/27407df010530dde1ce340a13911a491cda2ef1c/docs/assignments/A04/CAD_3.jpg)
+
+![image alt](https://github.com/gmclean04/Mclean-MEGR-2156-Portfolio/blob/27407df010530dde1ce340a13911a491cda2ef1c/docs/assignments/A04/CAD_4.jpg)
+
+![image alt](https://github.com/gmclean04/Mclean-MEGR-2156-Portfolio/blob/27407df010530dde1ce340a13911a491cda2ef1c/docs/assignments/A04/CAD_5.jpg)
+
+![image alt](https://github.com/gmclean04/Mclean-MEGR-2156-Portfolio/blob/27407df010530dde1ce340a13911a491cda2ef1c/docs/assignments/A04/CAD_6.jpg)
 
 ## Wall Mounting Holes
 
@@ -117,7 +123,7 @@ After creating the motor mounting holes, I added the holes for attaching the mou
 
 This allowed the bolts to be distributed evenly instead of having the holes placed randomly on the feature.
 
-**[Insert wall bolt hole screenshot here]**
+![image alt](https://github.com/gmclean04/Mclean-MEGR-2156-Portfolio/blob/27407df010530dde1ce340a13911a491cda2ef1c/docs/assignments/A04/CAD_7.jpg)
 
 # Deflection Reduction Features
 
@@ -125,7 +131,7 @@ After creating the basic motor mount, I added support features between the two m
 
 I decided to use triangular gusset-style supports because they are simple to model and add support without completely changing the main shape of the mount.
 
-**[Insert gusset/support screenshot here]**
+![image alt](https://github.com/gmclean04/Mclean-MEGR-2156-Portfolio/blob/27407df010530dde1ce340a13911a491cda2ef1c/docs/assignments/A04/CAD_8.jpg)
 
 The supports were also placed symmetrically so that the load would be distributed more evenly across the mount.
 
@@ -133,7 +139,7 @@ The supports were also placed symmetrically so that the load would be distribute
 
 After adding the mounting holes and support features, the motor mount was completed in SolidWorks. The final model uses ABS and contains the motor mounting holes, wall mounting holes, and additional supports to help reduce deflection.
 
-**[Insert final CAD model screenshot here]**
+![image alt](https://github.com/gmclean04/Mclean-MEGR-2156-Portfolio/blob/27407df010530dde1ce340a13911a491cda2ef1c/docs/assignments/A04/CAD_9.jpg)
 
 # Lessons Learned
 
