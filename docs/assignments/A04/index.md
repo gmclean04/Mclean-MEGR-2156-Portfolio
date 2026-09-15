@@ -80,4 +80,72 @@ Before starting my CAD file I had to design a simple handdrawn mount that would 
 
 ![image alt](https://github.com/gmclean04/Mclean-MEGR-2156-Portfolio/blob/44d7f4bebd8140a59e659b63bfca0d06b58a3b16/docs/assignments/A04/SS%2B7.jpg)
 
+# Parametric CAD Model
+
+After finishing the calculations and sketch, I moved into SolidWorks to create the 3D model. I started by entering my main dimensions into the equation editor so that the important dimensions could be changed without having to completely rebuild the model.
+
+## Global Variables
+
+The main values I used in SolidWorks were:
+
+- `Force = 300 N`
+- `Width = 42 mm`
+- `Feature1_Length = 20 mm`
+- `Feature1_Height = 10 mm`
+- `Feature2_Length = 112 mm`
+- `Feature2_Height = 43 mm`
+- `Bolt_Clearance = 3.4 mm`
+- `Material = ABS`
+
+**[Insert SolidWorks equation editor screenshot here]**
+
+I then created the side profile of the motor mount and extruded it to create the basic shape.
+
+**[Insert CAD side profile screenshot here]**
+
+## Motor Mount Holes
+
+The next step was creating the holes that connect the motor to Feature 1. I used the dimensions of the motor to locate the center hole and the four mounting holes.
+
+The motor shaft clearance hole was modeled based on the motor dimensions, while the four mounting holes were made using 3.4 mm clearance holes for the M3 bolts as required by the assignment.
+
+**[Insert motor hole sketch screenshot here]**
+
+## Wall Mounting Holes
+
+After creating the motor mounting holes, I added the holes for attaching the mount to the wall. I used construction geometry to evenly space the four 3.4 mm clearance holes across the wall mounting feature.
+
+This allowed the bolts to be distributed evenly instead of having the holes placed randomly on the feature.
+
+**[Insert wall bolt hole screenshot here]**
+
+# Deflection Reduction Features
+
+After creating the basic motor mount, I added support features between the two main sections of the mount. These supports help reduce bending and deflection by adding material between Feature 1 and Feature 2.
+
+I decided to use triangular gusset-style supports because they are simple to model and add support without completely changing the main shape of the mount.
+
+**[Insert gusset/support screenshot here]**
+
+The supports were also placed symmetrically so that the load would be distributed more evenly across the mount.
+
+# Final CAD Model
+
+After adding the mounting holes and support features, the motor mount was completed in SolidWorks. The final model uses ABS and contains the motor mounting holes, wall mounting holes, and additional supports to help reduce deflection.
+
+**[Insert final CAD model screenshot here]**
+
+# Lessons Learned
+
+This assignment helped me understand how beam stress and deflection equations can be used to determine dimensions for an actual mechanical part. I also learned that the stress requirement and deflection requirement do not always give the same answer. For my design, stress controlled Feature 1 while deflection controlled Feature 2.
+
+I also learned more about using global variables and equations in SolidWorks. Instead of manually changing every dimension, I was able to connect the important dimensions to my calculations. This makes the design easier to change if one of the requirements changes.
+
+Another thing I learned was that adding material in certain areas can help reduce deflection without needing to completely redesign the mount. The gusset supports were added for this reason.
+
+Overall, this assignment gave me more experience taking calculations and turning them into an actual CAD model. The project took approximately 4-5 hours from the initial calculations to the completed CAD model.
+
+# CAD File
+
+**[Insert link to download Motor Mount SLDPRT file here]**
 
