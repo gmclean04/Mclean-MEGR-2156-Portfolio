@@ -37,7 +37,7 @@ For the free body diagram, I modeled Feature 1 as a cantilever beam fixed at the
 
 After that I solved for the height requirements of the feature using the stress and deflection equations. They simply needed to be rearranged to sole for height which allowed me to use all of my known values. My height calculated from deflection turned out to be higher than expected which lead me to use just stick with that height. After calculating the height of this feature ws 14.12 mm.
 
-
+![image alt](https://github.com/gmclean04/Mclean-MEGR-2156-Portfolio/blob/81a17e152c4897a2e1d3530881c267e205e6f2a1/docs/assignments/A04/SS_4.jpg)
 
 
 
