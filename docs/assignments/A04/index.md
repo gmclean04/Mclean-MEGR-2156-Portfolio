@@ -43,7 +43,7 @@ After that I solved for the height requirements of the feature using the stress 
 
 The second feature is the part of the mount that attaches to the rigid wall. The wall is assumed to be strong enough to support the bolts. I used the same ABS material and safety factor from Feature 1.
 
-For this feature, I used a width of 42 mm and a beam length of 112 mm. This length was selected based on the motor and the distance needed for the motor to sit away from the wall.
+For this feature, I used a width of 42 mm and a beam length of 112 mm. This length was selected based on the motor and the distance needed for the motor to sit away from the wall. 
 
 ## Knowns and Unknowns
 
@@ -66,9 +66,12 @@ For this feature, I used a width of 42 mm and a beam length of 112 mm. This leng
 
 ## FBD
 
-I modeled Feature 2 as another cantilever beam. The wall acts as the fixed support and the 300 N force acts at the free end.
+I modeled Feature 2 as another cantilever beam. The wall acts as the fixed support and the 300 N force acts at the free end. The length of this feature was calculated by rounding to 90 and subtracting the length of feature 1 from that value which totaled out to  a length of 75.88 mm which would allow the full height of both features to be 90mm once connected. The moment calulations for this faeature was found to be 33600 N*mm.
 
-**[Insert Feature 2 FBD here]**
+![image alt](https://github.com/gmclean04/Mclean-MEGR-2156-Portfolio/blob/0f980e2fe0b8341158ba76c51d30d9773dece96b/docs/assignments/A04/SS_5.jpg)
 
-## Moment Calculation
+After that I did the same rearranged formula technique to begin calculating the additonal measurements of this feature. The same thing happened with the deflection formula providing  a larger height, which again led me to use the calculated value assuring there isn't anything that could exceed the deflection maximum. The height was found to be 41.68 mm.
+
+![image alt]
+
 
