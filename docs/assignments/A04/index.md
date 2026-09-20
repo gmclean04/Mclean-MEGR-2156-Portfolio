@@ -1,12 +1,12 @@
 # Assignment 4: Motor Mount
 
-For this assignment, I was instructed to design a motor mount for a Brushed 24V DC Gear Motor with a 99.5:1 planetary gearbox (https://www.omc-stepperonline.com/brushed-24v-dc-gear-motor-3-6kg-cm-46rpm-w-99-5-1-planetary-gearbox-pa28-28245800-g100). The mount has two main features. Feature 1 is the part that connects directly to the motor, while Feature 2 is the part that connects the mount to the rigid wall. For both features, I had to design around the yield strength of the material and also make sure the maximum deflection stayed below 0.30 mm at the free end.
+For this assignment, I was instructed to design a motor mount for a Brushed 24V DC Gear Motor with a 99.5:1 planetary gearbox ([Motor Product Link](https://www.omc-stepperonline.com/brushed-24v-dc-gear-motor-3-6kg-cm-46rpm-w-99-5-1-planetary-gearbox-pa28-28245800-g100)). The mount has two main features. Feature 1 is the part that connects directly to the motor, while Feature 2 is the part that connects the mount to the rigid wall. For both features, I had to design around the yield strength of the material and also make sure the maximum deflection stayed below 0.30 mm at the free end.
 
-![image alt](https://github.com/gmclean04/Mclean-MEGR-2156-Portfolio/blob/62bd40eac1042e997b12ba6b5766387ac3a66b71/docs/assignments/A04/SS_1.jpg)
+![Motor Diagram](https://github.com/gmclean04/Mclean-MEGR-2156-Portfolio/raw/62bd40eac1042e997b12ba6b5766387ac3a66b71/docs/assignments/A04/SS_1.jpg)
 
-For my design, I chose to use Acrylonitrile Butadiene Styrene (ABS). I used a Young's Modulus of 1.79 GPa and a yield strength of 30 MPa for my calculations. A safety factor of 3 was also used, and the weight of the motor was neglected. To simplify the analysis, I treated both features as cantilever beams since the wall connection was assumed to have zero deflection and zero slope. (https://www.specialchem.com/plastics/guide/acrylonitrile-butadiene-styrene-abs-plastic)
+For my design, I chose to use Acrylonitrile Butadiene Styrene (ABS). I used a Young's Modulus of 1.79 GPa and a yield strength of 30 MPa for my calculations. A safety factor of 3 was also used, and the weight of the motor was neglected. To simplify the analysis, I treated both features as cantilever beams since the wall connection was assumed to have zero deflection and zero slope ([ABS Material Data](https://www.specialchem.com/plastics/guide/acrylonitrile-butadiene-styrene-abs-plastic)).
 
-![image alt](https://github.com/gmclean04/Mclean-MEGR-2156-Portfolio/blob/1ed98cf1e2f561ccd1bd46b890264422d6674e69/docs/assignments/A04/SS_2.jpg)
+![Material Properties](https://github.com/gmclean04/Mclean-MEGR-2156-Portfolio/raw/1ed98cf1e2f561ccd1bd46b890264422d6674e69/docs/assignments/A04/SS_2.jpg)
 
 The first feature is the part of the mount that connects to the motor. I decided to use a rectangular cross section because it makes the calculations and CAD model simpler. Instead of using the same dimensions as the example, I chose a width of 42 mm and an initial beam length of 20 mm.
 
@@ -20,7 +20,7 @@ The first feature is the part of the mount that connects to the motor. I decided
 - Young's Modulus: $E = 1790\text{ N/mm}^2$
 - Yield strength: $\sigma_y = 30\text{ MPa}$
 - Safety factor: $N = 3$
-- Maximum deflection: $\delta_{max} = 0.30\text{ mm}$
+- Maximum deflection: $\delta_{\text{max}} = 0.30\text{ mm}$
 
 ### Unknowns
 
@@ -33,17 +33,17 @@ The first feature is the part of the mount that connects to the motor. I decided
 
 For the free body diagram, I modeled Feature 1 as a cantilever beam fixed at the wall. The 300 N force is applied at the free end of the feature. The fixed end contains a reaction force and reaction moment.
 
-![image alt](https://github.com/gmclean04/Mclean-MEGR-2156-Portfolio/blob/20b3585e121eefba31f2bf84debc4dc610c6aa69/docs/assignments/A04/SS_3.jpg)
+![Feature 1 FBD](https://github.com/gmclean04/Mclean-MEGR-2156-Portfolio/raw/20b3585e121eefba31f2bf84debc4dc610c6aa69/docs/assignments/A04/SS_3.jpg)
 
-After that I solved for the height requirements of the feature using the stress and deflection equations. They simply needed to be rearranged to sole for height which allowed me to use all of my known values. My height calculated from deflection turned out to be higher than expected which lead me to use just stick with that height. After calculating the height of this feature ws 14.12 mm.
+After that I solved for the height requirements of the feature using the stress and deflection equations. They simply needed to be rearranged to solve for height which allowed me to use all of my known values. My height calculated from deflection turned out to be higher than expected which led me to stick with that height. After calculating, the height of this feature was 14.12 mm.
 
-![image alt](https://github.com/gmclean04/Mclean-MEGR-2156-Portfolio/blob/81a17e152c4897a2e1d3530881c267e205e6f2a1/docs/assignments/A04/SS_4.jpg)
+![Feature 1 Calculations](https://github.com/gmclean04/Mclean-MEGR-2156-Portfolio/raw/81a17e152c4897a2e1d3530881c267e205e6f2a1/docs/assignments/A04/SS_4.jpg)
 
 # Feature 2
 
 The second feature is the part of the mount that attaches to the rigid wall. The wall is assumed to be strong enough to support the bolts. I used the same ABS material and safety factor from Feature 1.
 
-For this feature, I used a width of 42 mm and a beam length of 112 mm. This length was selected based on the motor and the distance needed for the motor to sit away from the wall. 
+For this feature, I used a width of 42 mm and a beam length of 112 mm. This length was selected based on the motor and the distance needed for the motor to sit away from the wall.
 
 ## Knowns and Unknowns
 
@@ -55,7 +55,7 @@ For this feature, I used a width of 42 mm and a beam length of 112 mm. This leng
 - Young's Modulus: $E = 1790\text{ N/mm}^2$
 - Yield strength: $\sigma_y = 30\text{ MPa}$
 - Safety factor: $N = 3$
-- Maximum deflection: $\delta_{max} = 0.30\text{ mm}$
+- Maximum deflection: $\delta_{\text{max}} = 0.30\text{ mm}$
 
 ### Unknowns
 
@@ -66,19 +66,19 @@ For this feature, I used a width of 42 mm and a beam length of 112 mm. This leng
 
 ## FBD
 
-I modeled Feature 2 as another cantilever beam. The wall acts as the fixed support and the 300 N force acts at the free end. The length of this feature was calculated by rounding to 90 and subtracting the length of feature 1 from that value which totaled out to  a length of 75.88 mm which would allow the full height of both features to be 90mm once connected. The moment calulations for this faeature was found to be 33600 N*mm.
+I modeled Feature 2 as another cantilever beam. The wall acts as the fixed support and the 300 N force acts at the free end. The length of this feature was calculated by rounding to 90 and subtracting the length of feature 1 from that value which totaled out to a length of 75.88 mm which would allow the full height of both features to be 90 mm once connected. The moment calculations for this feature was found to be 33,600 $\text{N}\cdot\text{mm}$.
 
-![image alt](https://github.com/gmclean04/Mclean-MEGR-2156-Portfolio/blob/0f980e2fe0b8341158ba76c51d30d9773dece96b/docs/assignments/A04/SS_5.jpg)
+![Feature 2 FBD](https://github.com/gmclean04/Mclean-MEGR-2156-Portfolio/raw/0f980e2fe0b8341158ba76c51d30d9773dece96b/docs/assignments/A04/SS_5.jpg)
 
-After that I did the same rearranged formula technique to begin calculating the additonal measurements of this feature. The same thing happened with the deflection formula providing  a larger height, which again led me to use the calculated value assuring there isn't anything that could exceed the deflection maximum. The height was found to be 41.68 mm.
+After that I did the same rearranged formula technique to begin calculating the additional measurements of this feature. The same thing happened with the deflection formula providing a larger height, which again led me to use the calculated value assuring there isn't anything that could exceed the deflection maximum. The height was found to be 41.68 mm.
 
-![image alt](https://github.com/gmclean04/Mclean-MEGR-2156-Portfolio/blob/f90424d400b1a8d7a2ce5866752bed73da73563b/docs/assignments/A04/SS_6.jpg)
+![Feature 2 Calculations](https://github.com/gmclean04/Mclean-MEGR-2156-Portfolio/raw/f90424d400b1a8d7a2ce5866752bed73da73563b/docs/assignments/A04/SS_6.jpg)
 
-#Isometric Sketch
+# Isometric Sketch
 
-Before starting my CAD file I had to design a simple handdrawn mount that would carry over to SolidWorks easier. All dimensions of each feature are also provided. This design was inspired by another design with my calculation being different.
+Before starting my CAD file I had to design a simple hand-drawn mount that would carry over to SolidWorks easier. All dimensions of each feature are also provided. This design was inspired by another design with my calculation being different.
 
-![image alt](https://github.com/gmclean04/Mclean-MEGR-2156-Portfolio/blob/44d7f4bebd8140a59e659b63bfca0d06b58a3b16/docs/assignments/A04/SS%2B7.jpg)
+![Hand Sketch](https://github.com/gmclean04/Mclean-MEGR-2156-Portfolio/raw/44d7f4bebd8140a59e659b63bfca0d06b58a3b16/docs/assignments/A04/SS%2B7.jpg)
 
 # Parametric CAD Model
 
@@ -97,11 +97,11 @@ The main values I used in SolidWorks were:
 - `Bolt_Clearance = 3.4 mm`
 - `Material = ABS`
 
-![image alt](https://github.com/gmclean04/Mclean-MEGR-2156-Portfolio/blob/27407df010530dde1ce340a13911a491cda2ef1c/docs/assignments/A04/CAD_0.jpg)
+![SolidWorks Equations](https://github.com/gmclean04/Mclean-MEGR-2156-Portfolio/raw/27407df010530dde1ce340a13911a491cda2ef1c/docs/assignments/A04/CAD_0.jpg)
 
 I then created the side profile of the motor mount and extruded it to create the basic shape.
 
-![image alt](https://github.com/gmclean04/Mclean-MEGR-2156-Portfolio/blob/27407df010530dde1ce340a13911a491cda2ef1c/docs/assignments/A04/CAD_1.jpg)
+![Side Extrusion](https://github.com/gmclean04/Mclean-MEGR-2156-Portfolio/raw/27407df010530dde1ce340a13911a491cda2ef1c/docs/assignments/A04/CAD_1.jpg)
 
 ## Motor Mount Holes
 
@@ -109,13 +109,13 @@ The next step was creating the holes that connect the motor to Feature 1. I used
 
 The motor shaft clearance hole was modeled based on the motor dimensions, while the four mounting holes were made using the M3 bolts as required by the assignment.
 
-![image alt](https://github.com/gmclean04/Mclean-MEGR-2156-Portfolio/blob/27407df010530dde1ce340a13911a491cda2ef1c/docs/assignments/A04/CAD_3.jpg)
+![Motor Holes 1](https://github.com/gmclean04/Mclean-MEGR-2156-Portfolio/raw/27407df010530dde1ce340a13911a491cda2ef1c/docs/assignments/A04/CAD_3.jpg)
 
-![image alt](https://github.com/gmclean04/Mclean-MEGR-2156-Portfolio/blob/27407df010530dde1ce340a13911a491cda2ef1c/docs/assignments/A04/CAD_4.jpg)
+![Motor Holes 2](https://github.com/gmclean04/Mclean-MEGR-2156-Portfolio/raw/27407df010530dde1ce340a13911a491cda2ef1c/docs/assignments/A04/CAD_4.jpg)
 
-![image alt](https://github.com/gmclean04/Mclean-MEGR-2156-Portfolio/blob/27407df010530dde1ce340a13911a491cda2ef1c/docs/assignments/A04/CAD_5.jpg)
+![Motor Holes 3](https://github.com/gmclean04/Mclean-MEGR-2156-Portfolio/raw/27407df010530dde1ce340a13911a491cda2ef1c/docs/assignments/A04/CAD_5.jpg)
 
-![image alt](https://github.com/gmclean04/Mclean-MEGR-2156-Portfolio/blob/27407df010530dde1ce340a13911a491cda2ef1c/docs/assignments/A04/CAD_6.jpg)
+![Motor Holes 4](https://github.com/gmclean04/Mclean-MEGR-2156-Portfolio/raw/27407df010530dde1ce340a13911a491cda2ef1c/docs/assignments/A04/CAD_6.jpg)
 
 ## Wall Mounting Holes
 
@@ -123,7 +123,7 @@ After creating the motor mounting holes, I added the holes for attaching the mou
 
 This allowed the bolts to be distributed evenly instead of having the holes placed randomly on the feature.
 
-![image alt](https://github.com/gmclean04/Mclean-MEGR-2156-Portfolio/blob/27407df010530dde1ce340a13911a491cda2ef1c/docs/assignments/A04/CAD_7.jpg)
+![Wall Holes](https://github.com/gmclean04/Mclean-MEGR-2156-Portfolio/raw/27407df010530dde1ce340a13911a491cda2ef1c/docs/assignments/A04/CAD_7.jpg)
 
 # Deflection Reduction Features
 
@@ -131,7 +131,7 @@ After creating the basic motor mount, I added support features between the two m
 
 I decided to use triangular gusset-style supports because they are simple to model and add support without completely changing the main shape of the mount.
 
-![image alt](https://github.com/gmclean04/Mclean-MEGR-2156-Portfolio/blob/27407df010530dde1ce340a13911a491cda2ef1c/docs/assignments/A04/CAD_8.jpg)
+![Gusset Supports](https://github.com/gmclean04/Mclean-MEGR-2156-Portfolio/raw/27407df010530dde1ce340a13911a491cda2ef1c/docs/assignments/A04/CAD_8.jpg)
 
 The supports were also placed symmetrically so that the load would be distributed more evenly across the mount.
 
@@ -139,7 +139,7 @@ The supports were also placed symmetrically so that the load would be distribute
 
 After adding the mounting holes and support features, the motor mount was completed in SolidWorks. The final model uses ABS and contains the motor mounting holes, wall mounting holes, and additional supports to help reduce deflection.
 
-![image alt](https://github.com/gmclean04/Mclean-MEGR-2156-Portfolio/blob/27407df010530dde1ce340a13911a491cda2ef1c/docs/assignments/A04/CAD_9.jpg)
+![Final CAD View](https://github.com/gmclean04/Mclean-MEGR-2156-Portfolio/raw/27407df010530dde1ce340a13911a491cda2ef1c/docs/assignments/A04/CAD_9.jpg)
 
 # Lessons Learned
 
@@ -153,5 +153,5 @@ Overall, this assignment gave me more experience taking calculations and turning
 
 # CAD File
 
-(https://github.com/gmclean04/Mclean-MEGR-2156-Portfolio/blob/002814bdbf3bec65a93e38f8ba019ec4ff743944/docs/assignments/A04/A4_MotorMount.SLDPRT)
+[Download SolidWorks CAD File (A4_MotorMount.SLDPRT)](https://github.com/gmclean04/Mclean-MEGR-2156-Portfolio/raw/002814bdbf3bec65a93e38f8ba019ec4ff743944/docs/assignments/A04/A4_MotorMount.SLDPRT)
 
