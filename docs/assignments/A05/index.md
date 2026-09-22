@@ -71,3 +71,7 @@ Another thing I noticed was how the force from one feature becomes the force use
 I also got more practice deciding which equation to use based on how the feature was loaded. This was harder than some of the previous assignments because there were several different types of loading involved.
 
 Overall, the assignment took several hours because I had to go back and forth between the stress calculations, stiffness calculations, sketches, and CAD model. It gave me a better idea of how the calculations actually connect to the physical design.
+
+I also got more practice deciding which equation to use based on how the feature was loaded. This was harder than some of the previous assignments because there were several different types of loading involved.
+
+Overall, the assignment took several hours because I had to go back and forth between the stress calculations, stiffness calculations, sketches, and CAD model. It gave me a better idea of how the calculations actually connect to the physical design.
