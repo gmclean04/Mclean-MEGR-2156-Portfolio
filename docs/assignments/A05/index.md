@@ -5,7 +5,7 @@
 
 For this assignment, I had to design a bracket that could smoothly slide over a rigid T beam while holding a horizontal force from a strap. The bracket needed to be designed with a safety factor of 4 and an applied load between 500 lbf and 800 lbf.
 
-![Bracket Reference](https://github.com/gmclean04/Mclean-MEGR-2156-Portfolio/blob/172d8cd18a1eeb09fdfa45074e4052ced35b4237/docs/assignments/A05/A5_1.jpg)
+![Bracket Reference](https://github.com/gmclean04/Mclean-MEGR-2156-Portfolio/raw/172d8cd18a1eeb09fdfa45074e4052ced35b4237/docs/assignments/A05/A5_1.jpg)
 
 For my design, I decided to use **ASTM A36 Steel** ( https://beamdimensions.com/materials/Steel/ASTM/ASTM_A36/ ) . I used a design load of **650 lbf** so the bracket would be designed somewhere in the middle of the required load range. I used stress and deflection analysis to determine the dimensions of the different features.
 
