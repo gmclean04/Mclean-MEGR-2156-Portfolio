@@ -47,20 +47,19 @@ My main design values were:
 - Yield strength: **36,000 psi**
 - Strap width: **0.75 in**
 
-After completing both analyses, I compared the dimensions from the stress calculations with the dimensions from the stiffness calculations. The larger required dimension was used for the final CAD model so that the feature would satisfy both requirements.
+After completing both analyses, I compared the dimensions from the stress calculations with the dimensions from the stiffness calculations. The larger required dimension was used for the eventual CAD model so that the feature would satisfy both requirements.
 
 I also used the dimensions of the T beam when deciding the final fit and clearances. The goal was to have the bracket slide over the beam without making the fit unnecessarily loose.
 
-![Sketches](https://github.com/gmclean04/Mclean-MEGR-2156-Portfolio/raw/172d8cd18a1eeb09fdfa45074e4052ced35b4237/docs/assignments/A05/A5_6.jpg)
-
 ## Communicate
 
-After completing the calculations, I created the bracket in CAD using the dimensions from the stress and stiffness analyses. I also created separate multiview sketches showing the dimensions from each analysis.
+After completing the calculations, I created the bracket in sketches to use for a CAD model by using the dimensions from the stress and stiffness analyses. I also created separate multiview sketches showing the dimensions from each analysis.
 
 The sketches include an isometric view along with the top, side, and front views. The purpose of these drawings was to show where the calculated dimensions were being used in the final bracket.
 
-I also included the FBDs and calculations for each feature so the design process can be followed from the original load all the way to the final CAD model.
+I also included the FBDs and calculations for each feature so the design process can be followed from the original load all the way to the eventual CAD model.
 
+![Sketches](https://github.com/gmclean04/Mclean-MEGR-2156-Portfolio/raw/172d8cd18a1eeb09fdfa45074e4052ced35b4237/docs/assignments/A05/A5_6.jpg)
 
 ### Lessons Learned
 
@@ -74,4 +73,4 @@ Overall, the assignment took several hours because I had to go back and forth be
 
 I also got more practice deciding which equation to use based on how the feature was loaded. This was harder than some of the previous assignments because there were several different types of loading involved.
 
-Overall, the assignment took several hours because I had to go back and forth between the stress calculations, stiffness calculations, sketches, and CAD model. It gave me a better idea of how the calculations actually connect to the physical design.
+Overall, the assignment took several hours because I had to go back and forth between the stress calculations, stiffness calculations, sketches. It gave me a better idea of how the calculations actually connect to the physical design.
