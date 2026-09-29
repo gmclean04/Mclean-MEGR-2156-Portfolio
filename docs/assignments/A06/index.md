@@ -51,5 +51,8 @@ This assignment took about 2-3 hours to complete. I learned how to take dimensio
 
 ## Download CAD Files
 
+[Download Solidowkrs CAD file](https://github.com/gmclean04/Mclean-MEGR-2156-Portfolio/raw/c5acb5e1f0bca9fd9595dfa0ffd406518632d836/docs/assignments/A06/A6_GEM.SLDPRT)
+
+[Download Solidworks Drawing file](https://github.com/gmclean04/Mclean-MEGR-2156-Portfolio/raw/c5acb5e1f0bca9fd9595dfa0ffd406518632d836/docs/assignments/A06/A6_GEM.SLDDRW)
 
 
