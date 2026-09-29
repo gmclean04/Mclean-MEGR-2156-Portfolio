@@ -43,7 +43,7 @@ I added a section view because it makes the inside of the bracket easier to see 
 
 After finishing the CAD model, I created the Multiview engineering drawing. I used third-angle projection and added the required dimensions and tolerances. I also included the tolerance block and the tolerances for the T Beam interface.
 
-[Insert final Multiview drawing here]
+![Drawing](https://github.com/gmclean04/Mclean-MEGR-2156-Portfolio/raw/d747af69ea199a76cd60db06eb3dd82ae21050c2/docs/assignments/A06/A6_10.jpg)
 
 The section view helps show the inside of the bracket while still displaying the important dimensions. The centerline shows the center axis of the part and helps communicate the location of the feature that carries the force.
 
