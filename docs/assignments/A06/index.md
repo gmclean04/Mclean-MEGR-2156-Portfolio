@@ -2,7 +2,7 @@
 
 ## Objective
 
-For this assignment, I had to parametrically design the bracket that I made in the previous assignment and then create a Multiview drawing in CAD. The bracket was designed to slide over a T Beam and hold 650 lbf. The material is Nylon, with a maximum deflection of 0.005 in and a safety factor of 4. All of the calculations and assumptions for the dimensions were completed in the previous assignment.
+For this assignment, I had to parametrically design the bracket that I made in the previous assignment and then create a Multiview drawing in CAD. The bracket was designed to slide over a T Beam and hold 650 lbf. The material is ASTM A36 Steel, with a maximum deflection of 0.005 in and a safety factor of 4. All of the calculations and assumptions for the dimensions were completed in the previous assignment.
 
 ## Analyze
 
