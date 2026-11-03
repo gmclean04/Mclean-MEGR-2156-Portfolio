@@ -5,7 +5,7 @@
 For this assignment, I was tasked with designing a gearbox that could be assembled and disassembled. I was given the gear ratio, output torque and speed, and the diameters and lengths of the input and output shafts. I first had to check if the shafts were strong enough and design journal bearings to support them. After completing the calculations, I moved onto SolidWorks to create the gearbox housing and assemble all the components.
 
 <!-- Image 1: Overview of the gearbox design and assignment -->
-
+![Gear Figure](https://github.com/gmclean04/Mclean-MEGR-2156-Portfolio/raw/0fa355c0a0e4485f83de19c8f3e1238828404075/docs/assignments/A08/GearFigure_1.png)
 
 ## Analyze
 
@@ -15,44 +15,43 @@ The first thing I did was determine if the input and output shaft diameters were
 
 #### Input Shaft (Power-Transmission)
 
-
-
+![Inout Shaft](https://github.com/gmclean04/Mclean-MEGR-2156-Portfolio/raw/0fa355c0a0e4485f83de19c8f3e1238828404075/docs/assignments/A08/InputShaft_2.png)
 
 The calculated maximum shear stress was approximately 1222.3 psi. This was below the allowable stress of 4000 psi, so the input shaft diameter of 0.125 inches was sufficient.
 
 #### Output Shaft (Short Shaft)
 
-
-
+![Output Shaft](https://github.com/gmclean04/Mclean-MEGR-2156-Portfolio/raw/0fa355c0a0e4485f83de19c8f3e1238828404075/docs/assignments/A08/OutputShaft_3.png)
 
 The calculated maximum shear stress was approximately 407.1 psi. This was below the allowable stress of 8500 psi, so the output shaft diameter of 0.25 inches was sufficient.
 
 ### Design of the Journal Bearings
 
+![Journal Bearing 1](https://github.com/gmclean04/Mclean-MEGR-2156-Portfolio/raw/0fa355c0a0e4485f83de19c8f3e1238828404075/docs/assignments/A08/JournalBearingPt1_4.png)
+
 After checking the shafts, I moved onto designing the journal bearings. I needed to determine the pressure, surface velocity, and PV rating for each bearing. These calculations helped me decide what material would work best for the application.
 
 #### Output Shaft Bearing
 
-
+![Journal Bearing 2](https://github.com/gmclean04/Mclean-MEGR-2156-Portfolio/raw/0fa355c0a0e4485f83de19c8f3e1238828404075/docs/assignments/A08/JournalBearingPt2_4.png)
 
 
 The calculated pressure was approximately 36.4 psi, the surface velocity was approximately 72 ft/min, and the PV value was approximately 2620.4 psi·ft/min.
 
 #### Input Shaft Bearing
 
-
-
-
 The calculated pressure was approximately 87.35 psi, the surface velocity was approximately 95.99 ft/min, and the PV value was approximately 8385.3 psi·ft/min. This was the maximum PV value used when selecting the bearing material.
 
 ### Journal Bearing Thickness
 
+![Journal Bearing Thickness](https://github.com/gmclean04/Mclean-MEGR-2156-Portfolio/raw/0fa355c0a0e4485f83de19c8f3e1238828404075/docs/assignments/A08/journalBearingThickness_6.png)
+
 After calculating the PV values, I used the material loading capacity to determine the required thickness of each journal bearing.
 
 
-
-
 ### Gearbox Housing Sketch
+
+![Skecth](https://github.com/gmclean04/Mclean-MEGR-2156-Portfolio/raw/0fa355c0a0e4485f83de19c8f3e1238828404075/docs/assignments/A08/GearSketch_7.png)
 
 Before creating the CAD model, I made a sketch of the gearbox housing and decided to use nuts and bolts to connect the two halves together. This would allow the gearbox to be assembled and disassembled.
 
