@@ -129,7 +129,7 @@ The drawing portion of this assignment requires six individual multiview drawing
 
 The SolidWorks part files, assembly, and other necessary CAD files are available below.
 
-![CAD File Zip](https://github.com/gmclean04/Mclean-MEGR-2156-Portfolio/raw/b68bf448d0cc1e3fcb52bdd3dfaf139b0cf0a4a9/docs/assignments/A08/A8%20Gears.zip)
+![CAD File Zip](https://github.com/gmclean04/Mclean-MEGR-2156-Portfolio/blob/b68bf448d0cc1e3fcb52bdd3dfaf139b0cf0a4a9/docs/assignments/A08/A8%20Gears.zip)
 
 ## Lessons Learned
 
