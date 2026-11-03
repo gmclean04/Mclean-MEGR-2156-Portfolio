@@ -137,4 +137,6 @@ This assignment helped me understand how to check shaft strength, calculate jour
 
 One issue I ran into was getting the gears to mesh correctly in the assembly. This showed me that making the individual parts is only one part of the process, since the components also need to fit and work together properly. Another thing I learned was that starting earlier would have made the modeling process less stressful, especially because some of the SolidWorks assembly steps were new to me.
 
+I have continued to struggle with tiem management and unfortunately feel I cut corners through this process due to the shear amount of work I have to do in my regular life and academically. I hope for this to ease up with better time menagement.
+
 This assignment took me about 7-8 hours to complete.
