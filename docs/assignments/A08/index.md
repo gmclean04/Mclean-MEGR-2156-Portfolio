@@ -11,42 +11,18 @@ For this assignment, I was tasked with designing a gearbox that could be assembl
 
 ### Design of the Shafts
 
-The first thing I did was determine if the input and output shaft diameters were sufficient. I listed my knowns and unknowns, drew my free-body diagrams, and used the equations from Machinery's Handbook to calculate the maximum shear stress for each shaft.
+The first thing I did was determine if the input and output shaft diameters were sufficient. I listed my knowns and unknowns, drew my free-body diagrams, and used the equations from Machinery's Handbook to calculate the maximum shear stress for each shaft. Due to issues with getting a physical copy I had to ask for equations via a classmate.
 
 #### Input Shaft (Power-Transmission)
 
-**Knowns and Unknowns**
 
-<!-- Image 2: Input shaft knowns and unknowns -->
-
-
-**Free-Body Diagram**
-
-<!-- Image 3: Input shaft FBD -->
-
-
-**Equations and Calculations**
-
-<!-- Image 4: Input shaft stress calculations -->
 
 
 The calculated maximum shear stress was approximately 1222.3 psi. This was below the allowable stress of 4000 psi, so the input shaft diameter of 0.125 inches was sufficient.
 
 #### Output Shaft (Short Shaft)
 
-**Knowns and Unknowns**
 
-<!-- Image 5: Output shaft knowns and unknowns -->
-
-
-**Free-Body Diagram**
-
-<!-- Image 6: Output shaft FBD -->
-
-
-**Equations and Calculations**
-
-<!-- Image 7: Output shaft stress calculations -->
 
 
 The calculated maximum shear stress was approximately 407.1 psi. This was below the allowable stress of 8500 psi, so the output shaft diameter of 0.25 inches was sufficient.
@@ -57,32 +33,14 @@ After checking the shafts, I moved onto designing the journal bearings. I needed
 
 #### Output Shaft Bearing
 
-**Knowns and Unknowns**
 
-<!-- Image 8: Output bearing knowns and unknowns -->
-
-
-**Free-Body Diagram**
-
-<!-- Image 9: Output bearing FBD -->
-
-
-**Pressure, Velocity, and PV Calculations**
-
-<!-- Image 10: Output bearing calculations -->
 
 
 The calculated pressure was approximately 36.4 psi, the surface velocity was approximately 72 ft/min, and the PV value was approximately 2620.4 psi·ft/min.
 
 #### Input Shaft Bearing
 
-**Knowns and Unknowns and Free-Body Diagram**
 
-<!-- Image 11: Input bearing knowns and FBD -->
-
-**Pressure, Velocity, and PV Calculations**
-
-<!-- Image 12: Input bearing calculations -->
 
 
 The calculated pressure was approximately 87.35 psi, the surface velocity was approximately 95.99 ft/min, and the PV value was approximately 8385.3 psi·ft/min. This was the maximum PV value used when selecting the bearing material.
@@ -91,10 +49,7 @@ The calculated pressure was approximately 87.35 psi, the surface velocity was ap
 
 After calculating the PV values, I used the material loading capacity to determine the required thickness of each journal bearing.
 
-<!-- Image 13: Output bearing thickness calculations -->
 
-
-<!-- Image 14: Input bearing thickness calculations -->
 
 
 ### Gearbox Housing Sketch
