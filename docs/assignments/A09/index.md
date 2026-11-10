@@ -16,7 +16,7 @@ The first step was selecting a suitable belt for the pulley system. To do this, 
 
 I started by listing my knowns and unknowns and drawing an FBD of the pulley system. From there, I used the friction and stress equations to solve for the remaining values.
 
-![BeltDesign]([images/belt-fbd.png](https://github.com/gmclean04/Mclean-MEGR-2156-Portfolio/blob/d982acba74136021395d077f1aada9fc60365861/docs/assignments/A09/A9_BeltDesign.png))
+![BeltDesign]([images/belt-fbd.png](https://github.com/gmclean04/Mclean-MEGR-2156-Portfolio/raw/d982acba74136021395d077f1aada9fc60365861/docs/assignments/A09/A9_BeltDesign.png))
 
 ### Shaft Design
 
