@@ -24,7 +24,7 @@ After selecting the belt, I moved on to calculating the minimum diameter needed 
 
 I selected 1060 hardened steel for the shafts and used its maximum shear strength of approximately 65,000 psi. Using the belt forces, I calculated the torque acting on the shafts and then used the torsion equation to determine the minimum required diameter.
 
-![Shaft FBD](images/shaft-fbd.png)
+![ShaftDesign](https://github.com/gmclean04/Mclean-MEGR-2156-Portfolio/raw/2e40a7a855d1ec5d4dd4718e942df9d71243abad/docs/assignments/A09/A9_ShaftDesign.png)
 
 ### Journal Bearing Design
 
@@ -32,11 +32,7 @@ The next step was selecting a suitable material for the journal bearings. These 
 
 Before selecting a material, I calculated the bearing pressure, linear velocity, and PV rating. I then compared these values with Table 4 in the Machinery's Handbook to determine which material would be able to handle the operating conditions.
 
-![Journal Bearing FBD](images/bearing-fbd.png)
-
-![Bearing Calculations](images/bearing-calculations.png)
-
-![Bearing Material Selection](images/bearing-material.png)
+![JournalBearingDesign](https://github.com/gmclean04/Mclean-MEGR-2156-Portfolio/raw/2e40a7a855d1ec5d4dd4718e942df9d71243abad/docs/assignments/A09/A9_JournalBearingDesign.png)
 
 ### Frame Design
 
@@ -46,11 +42,9 @@ I used the calculated journal bearing pressure and multiplied it by my selected 
 
 I also created a basic sketch showing how the frame could support both shafts while maintaining the required center distance.
 
-![Ashby Plot](images/ashby-plot.png)
+![Ashby Plot](https://github.com/gmclean04/Mclean-MEGR-2156-Portfolio/raw/2e40a7a855d1ec5d4dd4718e942df9d71243abad/docs/assignments/A09/A9_DensityStrength.png)
 
-![Frame Material Selection](images/frame-material-selection.png)
-
-![Frame Sketch](images/frame-sketch.png)
+![Frame Material Selection](https://github.com/gmclean04/Mclean-MEGR-2156-Portfolio/raw/2e40a7a855d1ec5d4dd4718e942df9d71243abad/docs/assignments/A09/A9_MaterialTable.png)
 
 ## Decide
 
@@ -62,9 +56,7 @@ For the journal bearings, I selected dry graphite. Based on the reference design
 
 For the frame, I identified rigid polymer foam, cork, and butyl rubber as possible materials using the Ashby plot. These materials were selected because their strength ranges were close to the calculated requirements while also keeping the overall design relatively lightweight.
 
-![Final Pulley Design](images/final-pulley-design.png)
-
-![Final Component Selections](images/final-component-selections.png)
+![Final Pulley Design](https://github.com/gmclean04/Mclean-MEGR-2156-Portfolio/raw/2e40a7a855d1ec5d4dd4718e942df9d71243abad/docs/assignments/A09/A9_PulleyDesign.png)
 
 ## Communicate
 
