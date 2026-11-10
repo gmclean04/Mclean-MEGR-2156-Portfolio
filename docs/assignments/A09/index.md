@@ -65,4 +65,6 @@ One thing I learned was how important material selection is because each compone
 
 Another part of the assignment that helped me was working with belt friction. I have a better understanding of how friction affects the forces on the tight and loose sides of a belt and how these forces relate to torque being transferred through a pulley system.
 
+Aside from calculations another big issue I dealt with was time. While working and planning for upcoming exams this assignment took less time to complete but did still feel a bit last minute to get done. Hopefully the upcoming assignments of mine can be done sooner than later.
+
 **Time to complete:** 4-5 hours
