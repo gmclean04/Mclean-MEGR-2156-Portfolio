@@ -44,7 +44,7 @@ I also created a basic sketch showing how the frame could support both shafts wh
 
 ![Frame Material Selection](https://github.com/gmclean04/Mclean-MEGR-2156-Portfolio/raw/2e40a7a855d1ec5d4dd4718e942df9d71243abad/docs/assignments/A09/A9_MaterialTable.png)
 
-![Final Pulley Design](https://github.com/gmclean04/Mclean-MEGR-2156-Portfolio/raw/2e40a7a855d1ec5d4dd4718e942df9d71243abad/docs/assignments/A09/A9_PulleyDesign.png)
+![Ashby Plot](https://github.com/gmclean04/Mclean-MEGR-2156-Portfolio/raw/2e40a7a855d1ec5d4dd4718e942df9d71243abad/docs/assignments/A09/A9_DensityStrength.png)
 
 ## Decide
 
@@ -56,8 +56,7 @@ For the journal bearings, I selected dry graphite. Based on the reference design
 
 For the frame, I identified rigid polymer foam, cork, and butyl rubber as possible materials using the Ashby plot. These materials were selected because their strength ranges were close to the calculated requirements while also keeping the overall design relatively lightweight.
 
-![Ashby Plot](https://github.com/gmclean04/Mclean-MEGR-2156-Portfolio/raw/2e40a7a855d1ec5d4dd4718e942df9d71243abad/docs/assignments/A09/A9_DensityStrength.png)
-
+![Final Pulley Design](https://github.com/gmclean04/Mclean-MEGR-2156-Portfolio/raw/2e40a7a855d1ec5d4dd4718e942df9d71243abad/docs/assignments/A09/A9_PulleyDesign.png)
 ## Communicate
 
 This assignment helped me understand how different engineering concepts work together when designing a mechanical system. I had to use friction, torque, shear stress, bearing pressure, and material properties to make decisions about each component.
