@@ -16,6 +16,7 @@ During our calculation review, we found that the original axial sizing applied t
 <img width="400" height="400" alt="Screenshot 2026-11-15 180018" src="https://github.com/user-attachments/assets/8fdbe275-d19c-4465-a114-d100188e4d37" />
 <img width="400" height="400" alt="Screenshot 2026-11-15 180025" src="https://github.com/user-attachments/assets/9daae0b3-5233-460a-bbec-747af7c5fcc2" />
 
+
 ### Nut and Flange (George)
 
 We paired each leadscrew with a **95072A108 bronze nut** and a **95082A641 steel flange**. The nut’s internal 3/8–12 Acme thread fits the screw. Its external 9/16–18 thread attaches it to the flange. For the 5/8 in nut, our equal-load thread-bending model gives approximately **2.57 ksi at the 1,000 N service load**. The flange’s **1-1/8 in bolt circle** sets the mounting hole pattern on the crosshead.
@@ -24,7 +25,7 @@ We paired each leadscrew with a **95072A108 bronze nut** and a **95082A641 steel
 <img width="400" height="400" alt="Screenshot 2026-11-15 180042" src="https://github.com/user-attachments/assets/58756c0a-4183-45d9-9ed4-3347f8e98928" />
 
 
-### Crosshead Strength and Deflection ([Isabella])
+### Crosshead Strength and Deflection (Isabella)
 <img width="400" height="400" alt="Screenshot 2026-11-16 191838" src="https://github.com/user-attachments/assets/d45a9651-1874-47eb-9cfa-2b8ceacc322a" />
 <img width="400" height="400" alt="Screenshot 2026-11-16 191846" src="https://github.com/user-attachments/assets/02f15f53-71eb-4a06-b0bb-b439d9deb649" />
 <img width="400" height="400" alt="Screenshot 2026-11-16 191856" src="https://github.com/user-attachments/assets/2cca395a-1887-4d66-9edb-1fef61e9a321" />
@@ -41,7 +42,7 @@ We modeled the crosshead as a simply supported beam. The specimen pulls down wit
 
 ## Decide
 
-### Concept Selection ([Team])
+### Concept Selection (Team)
 
 We used a Pugh matrix to compare three ways to drive the two leadscrews together. The roller chain was the baseline. A `+` means better than the baseline, `0` means comparable, and `−` means worse.
 
@@ -64,7 +65,7 @@ We selected a **304.80 × 101.60 × 20.00 mm 6061-T6 aluminum crosshead**. Defle
 
 ## Communicate
 
-### Crosshead Drawing and CAD ([Isabella])
+### Crosshead Drawing and CAD (Isabella)
 
 The crosshead has two **Ø10.50 mm through-holes** for the leadscrews, spaced **152.40 mm** apart. Each screw hole is surrounded by four **Ø6.60 mm mounting holes** on a **Ø28.575 mm bolt circle**. The **Ø13.00 mm center hole** is for the proposed grip adapter. Both steel flanges seat against the underside of the crosshead.
 
@@ -80,13 +81,23 @@ The crosshead has two **Ø10.50 mm through-holes** for the leadscrews, spaced **
 [Download the Crosshead Part](https://github.com/igarayal/Alzamora-MEGR2156-Portfolio/blob/main/docs/assignments/A10/A10-Crossheadfinal.SLDDRW)
 
 
-### Assembly ([Eva Stewart])
+### Assembly (Eva Stewart)
 
-Downloaded and imported the appropriate CAD files for the leadscrew, nut & flange, frame, and crosshead. Assembled all components in CAD, positioning and aligning each part to ensure proper fit within the overall design. Applied appropriate mates and constraints to establish the correct relationships between components and maintain proper alignment throughout the assembly. There were errors within the assembly since 2 parts of the frame needed to be cut from the original length of 2 ft so that all the components would fit together. 
+Downloaded and imported the appropriate CAD files for the leadscrew, nut and flange, frame, and crosshead. Assembled all components in SolidWorks, applying the necessary mates and constraints to ensure proper positioning and alignment. Two sections of the original 2-foot frame were cut to the required lengths to accommodate the assembly and avoid purchasing a differently sized frame. These modifications caused rebuild errors within the SolidWorks parts and assembly; however, all components remained correctly positioned and aligned within the overall design.
 
-(Add photos of assembly and parts)
+<img width="500" height="500" alt="Screenshot 2026-11-16 214348" src="https://github.com/user-attachments/assets/e492fcd8-d380-45ba-82fb-6f3710ec9e29" />
+<img width="500" height="500" alt="Screenshot 2026-11-16 214650" src="https://github.com/user-attachments/assets/e2aed8ee-e339-44a0-908e-c5a57fe0a2a1" />
+<img width="500" height="500" alt="Screenshot 2026-11-16 215259" src="https://github.com/user-attachments/assets/1d9321d7-850d-492a-9593-75a2dbb2c9e7" />
+<img width="500" height="500" alt="Screenshot 2026-11-16 214610" src="https://github.com/user-attachments/assets/ec7ba1a2-a351-4579-9d61-07b47cefe693" />
+<img width="500" height="500" alt="Screenshot 2026-11-16 214555" src="https://github.com/user-attachments/assets/cfea9517-f482-436d-95c0-b2b1903d1061" />
+<img width="500" height="500" alt="Screenshot 2026-11-16 214540" src="https://github.com/user-attachments/assets/7af79475-f4b3-436e-84e6-04ecf1ec08ba" />
+<img width="500" height="500" alt="Screenshot 2026-11-16 214511" src="https://github.com/user-attachments/assets/d2f9aba2-3934-4bac-8c63-9e34c9542d2a" />
+<img width="500" height="500" alt="Screenshot 2026-11-16 214420" src="https://github.com/user-attachments/assets/dbe69e5d-3f35-45e6-b0f9-8ac4cf1ed42e" />
 
-### Tabulating Costs ([Eva Stewart])
+
+[Download the Tensile Tester Setup Assembly](https://github.com/user-attachments/files/34949408/A10-Tensile.Tester.Setup.zip)
+
+### Tabulating Costs (Eva Stewart)
 
 | Item Number | Quantity | Name             | Cost/Item | Cost    | Purchase Link |
 |:-----------:|:--------:|------------------|:---------:|:-------:|---------------|
@@ -101,4 +112,5 @@ Downloaded and imported the appropriate CAD files for the leadscrew, nut & flang
 We learned that the screw, nut, and flange each determine a different part of the design. The screw lead sets the rotational speed, the nut threads transfer the axial force, and the flange bolt circle sets the crosshead hole pattern. We also learned that stiffness can determine the plate thickness even when the bending stress is well below the allowable stress. In our design, the deflection check required **15.07 mm**, compared with **10.08 mm** for bending strength.
 
 **Time spent** — 5 hours
+
 
