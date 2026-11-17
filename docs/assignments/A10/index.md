@@ -1,7 +1,5 @@
 # A10 – Lead Screw Translating System
 
-# A10 – Lead Screw Translating System
-
 ## Objective
 
 Our goal was to design a benchtop tensile tester that uses two leadscrews to apply up to 2 kN to a specimen. The crosshead must move at 1–50 mm/min, deflect no more than 0.100 mm under load, and operate mechanically. We used a design factor of 4 when sizing the load-bearing components.
