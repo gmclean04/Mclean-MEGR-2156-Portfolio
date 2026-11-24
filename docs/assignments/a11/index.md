@@ -5,7 +5,7 @@ For this assignment this is a continuation of our work on the leadscrew design f
 
 Team composed of George Mclean Jr, Eva Stewart, Isabella Alzamora
 
-
+<img width="400" height="400" alt="Screenshot 2026-11-15 180006" src="https://github.com/user-attachments/assets/9b3ace73-b62d-4a16-af88-f82bf5eedcc5" />
 
 
 ## Analyze
