@@ -44,6 +44,61 @@ Using the torsion equations, I first rearranged the equation algebraically to so
 <img width="746" height="817" alt="CouplerSelection" src="https://github.com/user-attachments/assets/63c2558f-7f6b-44e2-abce-f84cf61d887a" />
 <img width="1912" height="995" alt="Coupler (1)" src="https://github.com/user-attachments/assets/e8b19e53-bc1f-44b1-b754-a8a47fce9683" />
 
+## Analyze and Design a Frame: Eva Stewart
+
+The first thing I did was analyze the twist that the motor torque puts on the top of the frame and on the vertical standoffs. I drew a free body diagram of the top member and solved for the reaction forces and moments needed at each end to hold it in place. Those reactions set the loads that the connection between the top of the frame and the vertical standoffs must carry. They are shear and tension on the fasteners and the moment at the joint.
+
+<img width="2835" height="1884" alt="IMG_2935" src="https://github.com/user-attachments/assets/ef545411-4711-4628-a5bb-54ac6a2317ec" />
+
+<img width="3022" height="2544" alt="IMG_2936" src="https://github.com/user-attachments/assets/403b8914-3546-4a2d-b304-35bc4befdb02" />
+
+<img width="3022" height="1910" alt="IMG_2937" src="https://github.com/user-attachments/assets/c75f1a90-ee7a-4313-b047-9a351e602c7d" />
+
+I revised the original tensile tester frame assembly to improve the errors caused in the last assignment as well as its fit and alignment. I then added the motor mount bracket, so the assembly now shows how the motor attaches to the top of the frame. With the assembly updated, I ran two FEA studies to check that the frame can carry the design loads.
+
+When I first set up the FEA studies, the mesh failed to generate. The frame components have many small features, and the default coarse mesh was too large to fit around them. To fix this, I assigned a finer mesh size to each frame component individually. After adjusting the mesh controls through trial and error, I got a mesh that worked for both studies.
+
+The first study analyzed the horizontal top member, which supports the leadscrews and the motor. I applied the leadscrew loads and the motor torque to see how the member resists bending and twisting. 
+
+The second study analyzed the two vertical support members, which carry the loads from the top of the frame down to the base. I applied the axial compression and the transverse load to check their strength and stability.
+
+Together, the two studies show how the load travels through the frame and where the highest stresses occur. They also show whether the frame has enough strength and stiffness for the total 2 kN tensile load.
+
+### Final Assembly 
+
+<img width="853" height="767" alt="Screenshot 2026-11-23 220440" src="https://github.com/user-attachments/assets/f4b3c68c-eb97-405e-84ec-520a54c115cb" />
+
+### FEA Study 1
+
+<img width="1045" height="381" alt="Screenshot 2026-11-23 220118" src="https://github.com/user-attachments/assets/92004474-b372-4017-a7b4-cbc849f25fda" />
+
+<img width="1343" height="715" alt="Screenshot 2026-11-23 210552" src="https://github.com/user-attachments/assets/e5c237d0-749a-431c-9515-98305b01ded0" />
+
+<img width="1320" height="703" alt="Screenshot 2026-11-23 210622" src="https://github.com/user-attachments/assets/137f1f19-a4e7-42c2-aa0f-35dd4e415f52" />
+
+<img width="1355" height="661" alt="Screenshot 2026-11-23 210839" src="https://github.com/user-attachments/assets/410e5f8e-c233-46c5-b89f-ceb478de8565" />
+
+### FEA Study 2
+
+<img width="843" height="742" alt="Screenshot 2026-11-23 220047" src="https://github.com/user-attachments/assets/b6b809ba-4696-4ddb-b4a8-4258ed6878c6" />
+
+<img width="1152" height="817" alt="Screenshot 2026-11-23 214618" src="https://github.com/user-attachments/assets/efd5eb50-f8f0-4fcc-bcf4-945413ff7908" />
+
+<img width="1133" height="812" alt="Screenshot 2026-11-23 215038" src="https://github.com/user-attachments/assets/7a5d2763-bfee-46b8-9b3c-72ecb20d8051" />
+
+<img width="1181" height="810" alt="Screenshot 2026-11-23 215839" src="https://github.com/user-attachments/assets/fc4b71d6-72f2-474e-bbba-d25bd21ff3ef" />
+
+### Frame Assembly CAD Download
+
+[Tensile Tester Final.zip](https://github.com/user-attachments/files/35310027/Tensile.Tester.Final.zip)
+
+
+
+## Decide
+_Reference your concept selection (Pugh matrix) here. How does this design follow from that decision?_
+
+## Communicate
+
 
 
 ## Decide
